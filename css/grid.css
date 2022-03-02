@@ -15,4 +15,29 @@ body {
       padding: 10px;
       text-align: center;
   }
+  .header{
+      grid-area: header;
+      background-color: antiquewhite;
+  }
+  .navbar{
+      grid-area: navbar;
+    background-color: #afd6af;
+  }
+  .sidebar{
+      grid-area: sidebar;
+      background-color: #fdcfcf;
+
+  }
+
+  .grib-container{
+      display: grid;
+      gap: 10px;
+      grid-template-areas: 
+      "header"
+      "navbar"
+      "main"
+      "side"
+      "footer";
+
+  }
   
